@@ -5,7 +5,7 @@
 # }
 
 module "elasticdb"{
-source           =    "./vendor/modules/vpc"
+source           =    "./vendor/modules/elastic"
 ENV              =    var.ENV
 
 }

@@ -1,3 +1,7 @@
-  vpc:
+  docdb:
     source:    "https://github.com/Sankalp12DevOps/tf-module-mongodb.git"
+    version:   "main"
+
+  elastic:
+    source:    "https://github.com/Sankalp12DevOps/tf-module-elasticdb.git"
     version:   "main"
