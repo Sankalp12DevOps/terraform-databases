@@ -15,7 +15,3 @@ source           =    "./vendor/modules/mysqldb"
 ENV              =    var.ENV
 
 }
-
-output "elastic"{
-   value =  module.elasticdb.elastic
-}
